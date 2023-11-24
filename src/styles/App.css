@@ -1,12 +1,24 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.loading{
+   display: flex;
+   width: 80%;
+   margin: auto;
 }
+.textarea>textarea{
+    height: 500px;
+    width: 100%;
+    background-color: aquamarine;
+    outline:0;
+    border: none;
+    font-size: 18px;
+}
+.textarea{
+    width: 50%;
+}
+.preview{
+    background-color: aqua;
+    width: 50%;
+    height: 500px;
+}
+/* textarea:focus{
+    
+} */
