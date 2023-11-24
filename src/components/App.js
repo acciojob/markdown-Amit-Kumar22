@@ -1,11 +1,11 @@
 import React from 'react'
-import State from './state1'
+import Markdown from './state1'
 
 function App() {
   return (
     <div>
        <div className="app">
-      <State />
+      <Markdown />
     </div>
     </div>
   )

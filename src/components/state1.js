@@ -1,30 +1,30 @@
-// TextEditor.js
+// markdownEditor.js
 import React, { useState, useEffect } from 'react';
 import CSS from '../styles/App.css'
 
 const state1 = () => {
-  const [Text, setText] = useState('');
+  const [markdown, setMarkdown] = useState('');
 
-  // Function to handle changes in the Text editor
-  const handleTextChange = (event) => {
-    setText(event.target.value);
+  // Function to handle changes in the markdown editor
+  const handlemarkdownChange = (event) => {
+    setMarkdown(event.target.value);
   };
 
   useEffect(() => {
-  }, [Text]);
+  }, [markdown]);
 
   return (
     <div className="loading">
-      <div className="textarea">
+      <div className="markdownarea">
         <textarea
-          value={Text}
-          onChange={handleTextChange}
+          value={markdown}
+          onChange={handlemarkdownChange}
         />
       </div>
 
-      {/* Text Output */}
+      {/* markdown Output */}
       <div className="preview">
-        <h1>{Text}</h1>
+        <p><b>{markdown}</b></p>
       </div>
     </div>
   );
