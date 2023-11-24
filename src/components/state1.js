@@ -24,7 +24,7 @@ const state1 = () => {
 
       {/* markdown Output */}
       <div className="preview">
-        <p><b>{markdown}</b></p>
+        <h1><b>{markdown}</b></h1>
       </div>
     </div>
   );
