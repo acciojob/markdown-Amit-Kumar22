@@ -1,6 +1,6 @@
 // markdownEditor.js
 import React, { useState, useEffect } from 'react';
-import CSS from '../styles/App.css'
+import '../styles/App.css'
 
 const state1 = () => {
   const [markdown, setMarkdown] = useState('');
@@ -15,9 +15,9 @@ const state1 = () => {
 
   return (
     <div className="loading">
-      <div className="markdownarea">
-        <textarea
-          value={markdown}
+      <div className="markdownarea">#
+        <textarea 
+          value= {markdown}
           onChange={handlemarkdownChange}
         />
       </div>

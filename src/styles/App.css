@@ -14,6 +14,9 @@
 .markdownarea{
     width: 50%;
 }
+textarea::before{
+    content: "#";
+}
 .preview{
     background-color: #e3dcdc;
     width: 50%;
